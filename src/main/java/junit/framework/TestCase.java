@@ -74,7 +74,7 @@ import java.lang.reflect.Modifier;
  * @see TestSuite
  */
 @SuppressWarnings("deprecation")
-public abstract class TestCase extends Assert implements Test {
+public abstract class TestCase extends org.junit.Assert implements Test {
     /**
      * the name of the test case
      */
